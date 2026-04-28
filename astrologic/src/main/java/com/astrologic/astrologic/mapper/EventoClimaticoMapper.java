@@ -1,8 +1,11 @@
 package com.astrologic.astrologic.mapper;
 
+import org.springframework.stereotype.Component;
+
 import com.astrologic.astrologic.model.EventoClimatico;
 import com.astrologic.astrologic.dto.EventoClimaticoDTO;
 
+@Component
 public class EventoClimaticoMapper {
 
     public EventoClimaticoDTO aDTO(EventoClimatico evento) {
